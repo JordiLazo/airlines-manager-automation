@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import time
 import csv
+import os
 
 def main():
     # Define input and output CSV files
@@ -33,7 +34,8 @@ def main():
     try:
         # Open the main page
         driver.get("https://www.airlines-manager.com/network/")
-
+        email = os.getenv("AIRLINE_EMAIL")
+        password = os.getenv("AIRLINE_PASSWORD")
         # Accept the cookie banner in French (message: "Compris !")
         try:
             cookie_accept = WebDriverWait(driver, 10).until(
@@ -48,10 +50,10 @@ def main():
         username_field = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.ID, "username"))
         )
-        username_field.send_keys("andreybergert@outlook.es")
+        username_field.send_keys(email)
 
         password_field = driver.find_element(By.ID, "password")
-        password_field.send_keys("7`%/7Yp7XTE7")
+        password_field.send_keys(password)
 
         try:
             login_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
