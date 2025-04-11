@@ -33,16 +33,17 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 
 3. **Select Route via Dropdown Menu**
    - It selects all routes that are available.
-   <img src="/images/all_routes.png" alt="all routes available" width="400" height="400"/>
-
+      <img src="/images/all_routes.png" alt="all routes available" width="400" height="400"/>
+      <img src="/images/route_selected.png" alt="all routes available" width="400" height="400"/>
 
 4. **Update Route Prices**
-   - Clicks the "Precios de la ruta" (Route Prices) button to open the price input screen.
-   - Clears existing values in input fields (Economy, Business, First Class, Cargo) using `.clear()`.
-   - Inserts new values from the CSV using `.send_keys()`.
+   - Clicks the "Route Prices" button to open the price input screen.
+     <img src="/images/route_prices.png" alt="all routes available" width="400" height="400"/>
+   - Clears existing values in input fields (Economy, Business, First Class, Cargo).
+   - Inserts new values from the CSV.
 
 5. **Run Simulation**
-   - Clicks the "Run Simulation" button (`ID: priceSimulation`) to simulate how many passengers/cargo units would book at the new prices.
+   - Clicks the "Run Simulation" button  to simulate how many passengers/cargo units would book at the new prices.
    - Waits for the simulation results to appear on the page.
 
 6. **Extract Simulation Results**
@@ -60,7 +61,3 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
      - Route name
      - Input prices
      - Simulated demand for each class
-
-8. **Crash-Safe Writing**
-   - After each route is processed, the CSV file is updated.
-   - If the script crashes or fails mid-run, partial results are still saved.
