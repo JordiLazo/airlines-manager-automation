@@ -13,7 +13,7 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 
 ├── airline_updated.csv # Output file with added simulation results
 
-├── script.py # Main automation script
+├── airline_manager_script.py # Main automation script
 
 ├── .env # Environment variables (email and password)
 
