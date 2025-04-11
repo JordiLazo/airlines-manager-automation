@@ -33,7 +33,7 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 
 3. **Select Route via Dropdown Menu**
    - It selects all routes that are available.
-   - ![Captura de pantalla 2025-04-11 124833](https://github.com/user-attachments/assets/a77f8df9-0df2-4ce8-a795-97aea16d2af0)
+   - ![All routes](/images/all_routes.png)
 
 
 4. **Update Route Prices**
