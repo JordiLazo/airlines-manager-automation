@@ -33,6 +33,7 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 
 3. **Select Route via Dropdown Menu**
    - It selects all routes that are available.
+   - <img src="/images/all_routes.png" alt="drawing" width="200"/>
    - ![All routes](/images/all_routes.png)
 
 
