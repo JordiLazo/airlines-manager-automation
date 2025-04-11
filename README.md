@@ -15,6 +15,8 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 
 ├── script.py # Main automation script
 
-├── .env # Environment variables (not committed to repo)
+├── .env # Environment variables (email and password)
+
+├── requirements.txt (packages needed to run the code)
 
 └── README.md # This file
