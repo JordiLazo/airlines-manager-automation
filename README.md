@@ -40,7 +40,9 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 
 4. **Update Route Prices**
    - Clicks the "Route Prices" button to open the price input screen.
-     <img src="/images/route_prices.png" alt="all routes available" width="400" height="400"/>
+     
+   <img src="/images/route_prices.png" alt="all routes available" width="400" height="400"/>
+   
    - Clears existing values in input fields (Economy, Business, First Class, Cargo).
    - Inserts new values from the CSV.
 
