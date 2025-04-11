@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import csv
 import os
+from dotenv import load_dotenv
 
 def main():
     # Define input and output CSV files
@@ -34,6 +35,7 @@ def main():
     try:
         # Open the main page
         driver.get("https://www.airlines-manager.com/network/")
+        load_dotenv()
         email = os.getenv("AIRLINE_EMAIL")
         password = os.getenv("AIRLINE_PASSWORD")
         # Accept the cookie banner in French (message: "Compris !")
