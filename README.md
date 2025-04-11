@@ -33,8 +33,9 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 
 3. **Select Route via Dropdown Menu**
    - It selects all routes that are available.
-      <img src="/images/all_routes.png" alt="all routes available" width="400" height="400"/>
-      <img src="/images/route_selected.png" alt="all routes available" width="400" height="400"/>
+     <img src="/images/all_routes.png" alt="all routes available" width="400" height="400"/>
+     
+     <img src="/images/route_selected.png" alt="all routes available" width="400" height="400"/>
 
 4. **Update Route Prices**
    - Clicks the "Route Prices" button to open the price input screen.
