@@ -7,9 +7,14 @@ It reads routes and their respective pricing from a CSV file, logs into your Air
 ---
 
 ## 📂 Project Structure
-📁 airline-pricing-bot/ 
-├── airline.csv # Input file with routes and pricing (semicolon-separated) 
-├── airline_updated.csv # Output file with added simulation results 
-├── script.py # Main automation script 
-├── .env # Environment variables (not committed to repo) 
+📁 airlines-manager-automation/
+
+├── airline.csv # Input file with routes and pricing (semicolon-separated)
+
+├── airline_updated.csv # Output file with added simulation results
+
+├── script.py # Main automation script
+
+├── .env # Environment variables (not committed to repo)
+
 └── README.md # This file
